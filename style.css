@@ -1,0 +1,22 @@
+body{
+    height: 95vh;
+    width: 95;
+    color: rgb(33,83,48);
+    font-size: 24px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+
+    background-image: url('img/snake.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#snake{
+    border: 2px solid rgb(33,83,48);
+    border-radius: 3px;
+}
